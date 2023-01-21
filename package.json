@@ -1,0 +1,28 @@
+{
+  "name": "mvw",
+  "version": "1.0.0",
+  "description": "MVW engine for JavaScript.",
+  "scripts": {
+    "eslint": "npx eslint .",
+    "prettier": "npx prettier .",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darblast/mvw.git"
+  },
+  "author": "James Farrell <farrelljames558@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darblast/mvw/issues"
+  },
+  "homepage": "https://github.com/darblast/mvw#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
+  }
+}
